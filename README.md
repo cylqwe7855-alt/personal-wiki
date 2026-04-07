@@ -7,7 +7,7 @@ Inspired by [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914
 ## Install
 
 ```bash
-npx skills add shansennan/personal-wiki
+npx skills add cylqwe7855-alt/personal-wiki
 ```
 
 Works across 40+ agents (Claude Code, Cursor, Cline, etc.) that support [Agent Skills](https://agentskills.io).
