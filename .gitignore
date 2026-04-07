@@ -1,0 +1,19 @@
+# Private data — never commit
+raw/
+wiki/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+ui/node_modules/
+ui/.next/
+
+# OS
+.DS_Store
+
+# Environment
+.env

@@ -1,0 +1,56 @@
+// Internationalization — English / Chinese toggle
+
+export type Locale = "en" | "zh"
+
+export const labels = {
+  en: {
+    siteName: "Personal Wiki",
+    mainPage: "Main Page",
+    graphView: "Graph View",
+    search: "Search",
+    searchPlaceholder: "Search wiki...",
+    navigation: "Navigation",
+    noResults: "No results found for",
+    resultsFor: "result(s) for",
+    searchPrompt: "Enter a search term above to search across all wiki pages.",
+    relatedArticles: "Related articles",
+    pagesLinkHere: "Pages that link here",
+    created: "Created",
+    updated: "Updated",
+    sources: "Sources",
+    pageNotFound: "Page Not Found",
+    pageNotFoundDesc: "The wiki page you are looking for does not exist.",
+    returnToMain: "Return to Main Page",
+    graphDesc: "Force-directed graph of wiki page relationships. Drag nodes to rearrange. Click a node to navigate.",
+    noGraphData: "No pages with links found. Add some [[wikilinks]] to your articles to see them here.",
+    welcome: "Welcome to Personal Wiki",
+    noIndex: "No index page found. Add content to your wiki directory to get started.",
+    language: "中文",
+  },
+  zh: {
+    siteName: "个人百科",
+    mainPage: "首页",
+    graphView: "图谱",
+    search: "搜索",
+    searchPlaceholder: "搜索百科...",
+    navigation: "导航",
+    noResults: "未找到相关结果：",
+    resultsFor: "条结果，关键词：",
+    searchPrompt: "在上方输入关键词搜索所有百科页面。",
+    relatedArticles: "相关条目",
+    pagesLinkHere: "链入页面",
+    created: "创建于",
+    updated: "更新于",
+    sources: "来源",
+    pageNotFound: "页面未找到",
+    pageNotFoundDesc: "你访问的百科页面不存在。",
+    returnToMain: "返回首页",
+    graphDesc: "百科页面关系的力导向图。拖动节点可重新排列，点击节点可跳转。",
+    noGraphData: "暂无带链接的页面。在文章中添加 [[维基链接]] 即可在此显示。",
+    welcome: "欢迎来到个人百科",
+    noIndex: "未找到索引页面。请先向 wiki 目录添加内容。",
+    language: "EN",
+  },
+} as const
+
+export type Labels = (typeof labels)["en"]
