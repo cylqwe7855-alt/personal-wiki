@@ -78,7 +78,7 @@ Wikipedia-style interface built with Next.js:
 
 ## License
 
-MIT
+Apache 2.0
 
 ---
 
