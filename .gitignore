@@ -2,6 +2,7 @@
 raw/
 wiki/
 !skills/wiki/
+!.claude/skills/wiki/
 
 # Python
 __pycache__/

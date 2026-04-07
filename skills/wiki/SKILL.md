@@ -31,7 +31,7 @@ Set up a new personal wiki project in the current directory. This command bootst
 1. Check if the current directory is empty (or nearly empty). If not, warn the user before proceeding.
 2. Clone the project repository:
    ```bash
-   git clone https://github.com/shansennan/personal-wiki.git .
+   git clone https://github.com/cylqwe7855-alt/personal-wiki.git .
    ```
 3. Install Python dependencies:
    ```bash
