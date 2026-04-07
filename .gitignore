@@ -1,6 +1,7 @@
 # Private data — never commit
 raw/
 wiki/
+!skills/wiki/
 
 # Python
 __pycache__/
