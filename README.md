@@ -82,9 +82,9 @@ Apache 2.0
 
 ---
 
-# Personal Wiki (中文)
+# 人生碎片 Wiki
 
-由 LLM 构建和维护的个人知识百科。你提供数据源，LLM 负责摄取、综合、交叉引用并维护整个知识库。通过维基百科风格的 Web UI 浏览。
+把散落在各处的笔记、日记、文档交给 LLM，它会帮你摄取、综合、交叉引用，编织成一部属于你自己的维基百科。通过 Web UI 浏览你的人生知识图谱。
 
 灵感来自 [Karpathy 的 LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 和 [hermes-agent wiki skill](https://github.com/NousResearch/hermes-agent)。
 
